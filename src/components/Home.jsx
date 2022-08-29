@@ -1,6 +1,15 @@
 import React from "react";
 import Bgimage from "../img/21.jpg";
 import { FaLongArrowAltDown } from "react-icons/fa";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 const Home = () => {
   return (
@@ -49,7 +58,10 @@ const Home = () => {
             aperiam.
           </p>
           <div className="text-5xl flex items-center justify-center mb-32 mt-32 hover:cursor-pointer">
-            <FaLongArrowAltDown />
+            {" "}
+            <Link smooth={true} to="pag" duration={800} offset={50}>
+              <FaLongArrowAltDown />
+            </Link>
           </div>
         </div>
       </div>
