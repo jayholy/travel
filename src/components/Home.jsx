@@ -4,7 +4,7 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className=" h-full overflow-hidden flex flex-col">
+    <div className=" h-[100vh] overflow-hidden flex flex-col">
       <div
         className=" before:absolute
            before:rounded-lg   before:content
@@ -12,7 +12,7 @@ const Home = () => {
              from-[#d5dbe2] to-[#d5dbe2] capitalize relative "
       >
         <img
-          className=" w-full  object-cover   absolute  -z-10  "
+          className=" w-full  object-cover h-[110vh]  absolute  -z-10  "
           src={Bgimage}
           alt=""
         />
